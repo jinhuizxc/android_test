@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--Caused by: java.lang.IllegalArgumentException: Binary XML file line #8:
+    Must specify unique android:id, android:tag,
+    or have a parent with an id for com.jh.fragment.MyFragment-->
+    <!--静态加载需要指定id或者tag
+       android:id="@+id/fragment"
+         android:tag="test"-->
+    <fragment
+        android:tag="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.jh.fragment.MyFragment" />
+
+</LinearLayout>

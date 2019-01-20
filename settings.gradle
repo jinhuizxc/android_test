@@ -1,0 +1,1 @@
+include ':app', ':datetimepicker', ':datetimedialog', ':gridview', ':spinner', ':progressbar', ':webview', ':fragment', ':viewpager', ':viewflipper', ':scrollview', ':gallery', ':seekbar'
